@@ -32,7 +32,3 @@ func (app *Application) Start() error {
 	os.Exit(0)
 	return nil
 }
-
-func NewApp(config *cfg.Config) *Application {
-	return &Application{config: config}
-}
